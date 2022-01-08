@@ -1,0 +1,78 @@
+html, body {
+  margin: 0;
+
+}
+
+.content-item-left-2 {
+
+  flex: 35%;
+  text-align: center;
+  padding: 3%;
+  background-color: black;
+  color: white;
+  flex-basis: 35%;
+}
+
+.content-item-left-2 a{
+  border: solid 2px white;
+}
+
+.content-item-left-2 p{
+  font-weight: 500;
+}
+
+.content-item-right-2 {
+  flex: 35%;
+background-color: #CECDCD;
+  text-align: center;
+  padding: 3%;
+flex-basis: 35%;
+
+}
+
+.content-item-right-2 p{
+  font-weight: 500;
+}
+
+
+p {
+  font-size: 3vh;
+  font-family:  Helvetica, sans-serif;
+  font-weight: 200;
+}
+
+h1 {
+  margin-left: 5%;
+  font-size: 5vh;
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+
+h3 {
+  font-size: 2.1em;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 2.5vh;
+  font-family: Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
+/* Media rule stuff */
+/*@media screen and (max-width: 600px) {
+
+.content-flex {
+  flex-direction: column;
+}
+
+
+/*.header li {
+
+  float: none;
+  display: block;
+  /*text-align: left;*/
+
+}
+}
